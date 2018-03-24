@@ -1,0 +1,14 @@
+C:\temp_appium_demo\Appium_Demo\obj\Debug\netcoreapp2.0\Appium_Demo.csproj.CoreCompileInputs.cache
+C:\temp_appium_demo\Appium_Demo\obj\Debug\netcoreapp2.0\Appium_Demo.AssemblyInfoInputs.cache
+C:\temp_appium_demo\Appium_Demo\obj\Debug\netcoreapp2.0\Appium_Demo.AssemblyInfo.cs
+C:\temp_appium_demo\Appium_Demo\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\temp_appium_demo\Appium_Demo\bin\Debug\netcoreapp2.0\xunit.runner.utility.netstandard15.dll
+C:\temp_appium_demo\Appium_Demo\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netstandard15.dll
+C:\temp_appium_demo\Appium_Demo\bin\Debug\netcoreapp2.0\Appium_Demo.deps.json
+C:\temp_appium_demo\Appium_Demo\bin\Debug\netcoreapp2.0\Appium_Demo.runtimeconfig.json
+C:\temp_appium_demo\Appium_Demo\bin\Debug\netcoreapp2.0\Appium_Demo.runtimeconfig.dev.json
+C:\temp_appium_demo\Appium_Demo\bin\Debug\netcoreapp2.0\Appium_Demo.dll
+C:\temp_appium_demo\Appium_Demo\bin\Debug\netcoreapp2.0\Appium_Demo.pdb
+C:\temp_appium_demo\Appium_Demo\obj\Debug\netcoreapp2.0\Appium_Demo.csprojResolveAssemblyReference.cache
+C:\temp_appium_demo\Appium_Demo\obj\Debug\netcoreapp2.0\Appium_Demo.dll
+C:\temp_appium_demo\Appium_Demo\obj\Debug\netcoreapp2.0\Appium_Demo.pdb

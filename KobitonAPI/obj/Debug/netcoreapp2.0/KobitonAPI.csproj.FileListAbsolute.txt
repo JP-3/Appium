@@ -1,0 +1,9 @@
+C:\temp_appium_demo\KobitonAPI\bin\Debug\netcoreapp2.0\KobitonAPI.deps.json
+C:\temp_appium_demo\KobitonAPI\bin\Debug\netcoreapp2.0\KobitonAPI.dll
+C:\temp_appium_demo\KobitonAPI\bin\Debug\netcoreapp2.0\KobitonAPI.pdb
+C:\temp_appium_demo\KobitonAPI\obj\Debug\netcoreapp2.0\KobitonAPI.csprojResolveAssemblyReference.cache
+C:\temp_appium_demo\KobitonAPI\obj\Debug\netcoreapp2.0\KobitonAPI.csproj.CoreCompileInputs.cache
+C:\temp_appium_demo\KobitonAPI\obj\Debug\netcoreapp2.0\KobitonAPI.AssemblyInfoInputs.cache
+C:\temp_appium_demo\KobitonAPI\obj\Debug\netcoreapp2.0\KobitonAPI.AssemblyInfo.cs
+C:\temp_appium_demo\KobitonAPI\obj\Debug\netcoreapp2.0\KobitonAPI.dll
+C:\temp_appium_demo\KobitonAPI\obj\Debug\netcoreapp2.0\KobitonAPI.pdb

@@ -1,0 +1,9 @@
+C:\temp_appium_demo\PageObjects\bin\Debug\netcoreapp2.0\PageObjects.deps.json
+C:\temp_appium_demo\PageObjects\bin\Debug\netcoreapp2.0\PageObjects.dll
+C:\temp_appium_demo\PageObjects\bin\Debug\netcoreapp2.0\PageObjects.pdb
+C:\temp_appium_demo\PageObjects\obj\Debug\netcoreapp2.0\PageObjects.csproj.CoreCompileInputs.cache
+C:\temp_appium_demo\PageObjects\obj\Debug\netcoreapp2.0\PageObjects.AssemblyInfoInputs.cache
+C:\temp_appium_demo\PageObjects\obj\Debug\netcoreapp2.0\PageObjects.AssemblyInfo.cs
+C:\temp_appium_demo\PageObjects\obj\Debug\netcoreapp2.0\PageObjects.dll
+C:\temp_appium_demo\PageObjects\obj\Debug\netcoreapp2.0\PageObjects.pdb
+C:\temp_appium_demo\PageObjects\obj\Debug\netcoreapp2.0\PageObjects.csprojResolveAssemblyReference.cache
