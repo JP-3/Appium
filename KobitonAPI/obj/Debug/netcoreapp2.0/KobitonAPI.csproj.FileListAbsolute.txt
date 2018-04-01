@@ -7,3 +7,11 @@ C:\temp_appium_demo\KobitonAPI\obj\Debug\netcoreapp2.0\KobitonAPI.AssemblyInfoIn
 C:\temp_appium_demo\KobitonAPI\obj\Debug\netcoreapp2.0\KobitonAPI.AssemblyInfo.cs
 C:\temp_appium_demo\KobitonAPI\obj\Debug\netcoreapp2.0\KobitonAPI.dll
 C:\temp_appium_demo\KobitonAPI\obj\Debug\netcoreapp2.0\KobitonAPI.pdb
+C:\git\Appium\KobitonAPI\bin\Debug\netcoreapp2.0\KobitonAPI.deps.json
+C:\git\Appium\KobitonAPI\bin\Debug\netcoreapp2.0\KobitonAPI.dll
+C:\git\Appium\KobitonAPI\bin\Debug\netcoreapp2.0\KobitonAPI.pdb
+C:\git\Appium\KobitonAPI\obj\Debug\netcoreapp2.0\KobitonAPI.csproj.CoreCompileInputs.cache
+C:\git\Appium\KobitonAPI\obj\Debug\netcoreapp2.0\KobitonAPI.AssemblyInfoInputs.cache
+C:\git\Appium\KobitonAPI\obj\Debug\netcoreapp2.0\KobitonAPI.AssemblyInfo.cs
+C:\git\Appium\KobitonAPI\obj\Debug\netcoreapp2.0\KobitonAPI.dll
+C:\git\Appium\KobitonAPI\obj\Debug\netcoreapp2.0\KobitonAPI.pdb

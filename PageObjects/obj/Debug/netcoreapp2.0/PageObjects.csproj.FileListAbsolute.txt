@@ -7,3 +7,12 @@ C:\temp_appium_demo\PageObjects\obj\Debug\netcoreapp2.0\PageObjects.AssemblyInfo
 C:\temp_appium_demo\PageObjects\obj\Debug\netcoreapp2.0\PageObjects.dll
 C:\temp_appium_demo\PageObjects\obj\Debug\netcoreapp2.0\PageObjects.pdb
 C:\temp_appium_demo\PageObjects\obj\Debug\netcoreapp2.0\PageObjects.csprojResolveAssemblyReference.cache
+C:\git\Appium\PageObjects\bin\Debug\netcoreapp2.0\PageObjects.deps.json
+C:\git\Appium\PageObjects\bin\Debug\netcoreapp2.0\PageObjects.dll
+C:\git\Appium\PageObjects\bin\Debug\netcoreapp2.0\PageObjects.pdb
+C:\git\Appium\PageObjects\obj\Debug\netcoreapp2.0\PageObjects.csprojResolveAssemblyReference.cache
+C:\git\Appium\PageObjects\obj\Debug\netcoreapp2.0\PageObjects.csproj.CoreCompileInputs.cache
+C:\git\Appium\PageObjects\obj\Debug\netcoreapp2.0\PageObjects.AssemblyInfoInputs.cache
+C:\git\Appium\PageObjects\obj\Debug\netcoreapp2.0\PageObjects.AssemblyInfo.cs
+C:\git\Appium\PageObjects\obj\Debug\netcoreapp2.0\PageObjects.dll
+C:\git\Appium\PageObjects\obj\Debug\netcoreapp2.0\PageObjects.pdb

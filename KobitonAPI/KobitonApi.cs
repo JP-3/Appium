@@ -24,6 +24,44 @@ namespace KobitonAPI
             client = new RestClient("https://api.kobiton.com/v1/");
         }
 
+
+        /// <summary>
+        /// Gets the devices available from Kobiton
+        /// </summary>
+        /// <returns>The devices.</returns>
+        public List<Device> GetDevices()
+        {
+            Console.WriteLine($"{DateTime.UtcNow:HH:mm:ss:fff} KobitonAPI: Obtaining Devices");
+
+            var request = new RestRequest("devices", Method.GET);
+
+            request.AddHeader("Authorization", send);
+
+            IRestResponse response = client.Execute(request);
+            var content = response.Content;
+
+            var releases = JArray.Parse("[" + content + "]");
+            var devices = LoopThroughDevices(releases);
+
+            Console.WriteLine($"{DateTime.UtcNow:HH:mm:ss:fff} KobitonAPI: found {devices.Count} devices");
+
+            return devices;
+        }
+
+        /// <summary>
+        /// Converts JArray of data to list of devices
+        /// </summary>
+        /// <returns>The through devices.</returns>
+        /// <param name="jArray">J array.</param>
+        public List<Device> LoopThroughDevices(JArray jArray)
+        {
+            var kobitonDevices = jArray.Children().Children().ElementAt(1).Children().Children();
+
+            List<Device> devices = kobitonDevices.Select(d => d.ToObject<Device>()).ToList();
+
+            return devices;
+        }
+
         public List<Apps> GetApps()
         {
             Console.WriteLine($"{DateTime.UtcNow:HH:mm:ss:fff} KobitonAPI: Getting Applications");
