@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "8d5c3cb25d7af7d6af2e027d9256bcaeb2541b31"
+    "signature": "a2d2c9e95d91d2f937a87f99bd73892b27cb02d2"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,6 +11,7 @@
           "KobitonAPI": "1.0.0",
           "Microsoft.NET.Test.Sdk": "15.3.0-preview-20170628-02",
           "PageModels": "1.0.0",
+          "Polly": "5.8.0",
           "xunit": "2.2.0",
           "xunit.runner.visualstudio": "2.2.0"
         },
@@ -358,6 +359,11 @@
         },
         "runtime": {
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Polly/5.8.0": {
+        "runtime": {
+          "lib/netstandard1.1/Polly.dll": {}
         }
       },
       "RestSharp/106.1.0": {
@@ -1159,6 +1165,13 @@
       "sha512": "sha512-hSXaFmh7hNCuEoC4XNY5DrRkLDzYHqPx/Ik23R4J86Z7PE/Y6YidhG602dFVdLBRSdG6xp9NabH3dXpcoxWvww==",
       "path": "newtonsoft.json/10.0.3",
       "hashPath": "newtonsoft.json.10.0.3.nupkg.sha512"
+    },
+    "Polly/5.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XxpbaLqP+AAW/A7lvX9VnYkZ7NiEePvdMfmz5voIkKA6+iPIu/EpWQmohpoj2i9pB+xgJqtuqOHaiP0k2P4J1A==",
+      "path": "polly/5.8.0",
+      "hashPath": "polly.5.8.0.nupkg.sha512"
     },
     "RestSharp/106.1.0": {
       "type": "package",

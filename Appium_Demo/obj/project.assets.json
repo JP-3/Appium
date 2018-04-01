@@ -607,6 +607,18 @@
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
         }
       },
+      "Polly/5.8.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.1/Polly.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Polly.dll": {}
+        }
+      },
       "RestSharp/106.1.0": {
         "type": "package",
         "compile": {
@@ -2553,6 +2565,22 @@
         "newtonsoft.json.10.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "tools/install.ps1"
+      ]
+    },
+    "Polly/5.8.0": {
+      "sha512": "XxpbaLqP+AAW/A7lvX9VnYkZ7NiEePvdMfmz5voIkKA6+iPIu/EpWQmohpoj2i9pB+xgJqtuqOHaiP0k2P4J1A==",
+      "type": "package",
+      "path": "polly/5.8.0",
+      "files": [
+        "lib/net45/Polly.dll",
+        "lib/net45/Polly.pdb",
+        "lib/net45/Polly.xml",
+        "lib/netstandard1.1/Polly.deps.json",
+        "lib/netstandard1.1/Polly.dll",
+        "lib/netstandard1.1/Polly.pdb",
+        "lib/netstandard1.1/Polly.xml",
+        "polly.5.8.0.nupkg.sha512",
+        "polly.nuspec"
       ]
     },
     "RestSharp/106.1.0": {
@@ -5804,6 +5832,7 @@
       "Microsoft.NET.Test.Sdk >= 15.3.0-preview-20170628-02",
       "Microsoft.NETCore.App >= 2.0.0",
       "PageModels >= 1.0.0",
+      "Polly >= 5.8.0",
       "xunit >= 2.2.0",
       "xunit.runner.visualstudio >= 2.2.0"
     ]
@@ -5864,6 +5893,10 @@
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true
+          },
+          "Polly": {
+            "target": "Package",
+            "version": "[5.8.0, )"
           },
           "xunit": {
             "target": "Package",
