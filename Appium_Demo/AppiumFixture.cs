@@ -3,9 +3,11 @@ using PageModels.AppiumUtilities.Config;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Xunit;
 
 namespace Appium_Demo
 {
+    [Collection("AppiumStartup")]
     public class AppiumFixture : IDisposable
     {
         private readonly ITestProvider testProvider;
@@ -25,9 +27,6 @@ namespace Appium_Demo
             var myTestProvider = AppiumConfig.GetTestProvider();
 
             return new KobitonTestProvider();
-
-
-            // return new GridTestProvider();
         }
     }
 }

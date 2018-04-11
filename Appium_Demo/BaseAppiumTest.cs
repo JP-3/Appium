@@ -54,7 +54,6 @@ namespace Appium_Demo
             {
                 TestInfo testInfo = new TestInfo();
                 testInfo.WebDriverCount = driverCount;
-                testInfo.UserCount = userCount;
 
                 try
                 {

@@ -31,3 +31,4 @@ C:\git\Appium\Appium_Demo\bin\Debug\netcoreapp2.0\PageModels.dll
 C:\git\Appium\Appium_Demo\bin\Debug\netcoreapp2.0\KobitonAPI.pdb
 C:\git\Appium\Appium_Demo\bin\Debug\netcoreapp2.0\PageModels.pdb
 C:\git\Appium\Appium_Demo\obj\Debug\netcoreapp2.0\Appium_Demo.csproj.CopyComplete
+C:\git\Appium\Appium_Demo\bin\Debug\netcoreapp2.0\settings.json

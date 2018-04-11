@@ -12,14 +12,11 @@ namespace Appium_Demo
     public class TestInfo
     {
         private static Dictionary<string, TestInfo> uiTestData = new Dictionary<string, TestInfo>();
-       // private ICreateUsers generateUsers;
 
         public TestInfo()
         {
             Drivers = new List<MobileDriver>();
-           // Users = new List<User>();
             WebDriverCount = 0;
-            UserCount = 0;
         }
 
         public static ITestProvider TestProvider { get; set; }
@@ -35,8 +32,6 @@ namespace Appium_Demo
        // public List<User> Users { get; set; }
 
         public int WebDriverCount { get; set; }
-
-        public int UserCount { get; set; }
 
         public static TestInfo GetTestInfo([CallerMemberName] string testName = null)
         {
@@ -55,10 +50,6 @@ namespace Appium_Demo
             {
                 throw new ArgumentException($"Not all webdrivers were created.\nOnly {testInfo.Drivers.Count} were created when {testInfo.WebDriverCount} was expected");
             }
-            //else if (testInfo.Users.Count != testInfo.UserCount)
-            //{
-            //    throw new ArgumentException($"Not all users were created.\nOnly {testInfo.Users.Count} were created when {testInfo.UserCount} was expected");
-            //}
 
             return testInfo;
         }

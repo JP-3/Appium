@@ -71,43 +71,59 @@ namespace Appium_Demo.TestProvider
         /// </summary>
         /// <param name="driverCount"> number of appium drivers to spin up for the test</param>
         /// <param name="methodInfo"></param>
+        //private List<MobileDriver> CreateDrivers(int driverCount, MethodInfo methodInfo)
+        //{
+        //    List<Device> onlineDevices;
+
+        //    var mydevices = kobitonApi.GetDevices();
+
+        //    var devicePlatform = AppiumConfig.GetDevicePlatform();
+
+        //    // TODO: refine better how to select appropriate devices for test execution
+        //    if (devicePlatform == DevicePlatform.Android)
+        //    {
+        //        onlineDevices = mydevices.Where(
+        //            d => d.PlatformName == "Android"
+        //            && d.PlatformVersion[0] >= '5'
+        //            && !d.IsBooked
+        //            && !d.IsHidden
+        //            && !d.AppiumDisabled
+        //            && d.IsOnline).ToList();
+        //    }
+        //    else
+        //    {
+        //        onlineDevices = mydevices.Where(
+        //            d => d.PlatformName == "iOS"
+        //            && d.DeviceName.Contains("iPhone")
+        //            && (d.PlatformVersion.Contains("10.3") || d.PlatformVersion.Contains("11."))
+        //            && !d.IsBooked
+        //            && !d.IsHidden
+        //            && !d.AppiumDisabled
+        //            && d.IsOnline).ToList();
+        //    }
+
+        //    var drivers = new List<MobileDriver>();
+        //    Console.WriteLine($"{DateTime.UtcNow:HH:mm:ss:fff} KobitonAPI: {onlineDevices.Count()} {devicePlatform} devices found");
+
+        //    for (var i = 0; i < driverCount; i++)
+        //    {
+        //        drivers.Add(CreateDriver(onlineDevices[i], methodInfo));
+        //    }
+
+        //    return drivers;
+        //}
+
         private List<MobileDriver> CreateDrivers(int driverCount, MethodInfo methodInfo)
         {
-            List<Device> onlineDevices;
+            //List<Device> onlineDevices;
 
-            var mydevices = kobitonApi.GetDevices();
-
-            var devicePlatform = AppiumConfig.GetDevicePlatform();
-
-            // TODO: refine better how to select appropriate devices for test execution
-            if (devicePlatform == DevicePlatform.Android)
-            {
-                onlineDevices = mydevices.Where(
-                    d => d.PlatformName == "Android"
-                    && d.PlatformVersion[0] >= '5'
-                    && !d.IsBooked
-                    && !d.IsHidden
-                    && !d.AppiumDisabled
-                    && d.IsOnline).ToList();
-            }
-            else
-            {
-                onlineDevices = mydevices.Where(
-                    d => d.PlatformName == "iOS"
-                    && d.DeviceName.Contains("iPhone")
-                    && (d.PlatformVersion.Contains("10.3") || d.PlatformVersion.Contains("11."))
-                    && !d.IsBooked
-                    && !d.IsHidden
-                    && !d.AppiumDisabled
-                    && d.IsOnline).ToList();
-            }
-
+            Device device = new Device();
             var drivers = new List<MobileDriver>();
-            Console.WriteLine($"{DateTime.UtcNow:HH:mm:ss:fff} KobitonAPI: {onlineDevices.Count()} {devicePlatform} devices found");
+            //Console.WriteLine($"{DateTime.UtcNow:HH:mm:ss:fff} KobitonAPI: {onlineDevices.Count()} {devicePlatform} devices found");
 
             for (var i = 0; i < driverCount; i++)
             {
-                drivers.Add(CreateDriver(onlineDevices[i], methodInfo));
+                drivers.Add(CreateDriver(device, methodInfo));
             }
 
             return drivers;
@@ -125,14 +141,14 @@ namespace Appium_Demo.TestProvider
 
             var capabilities = CreateDesiredCapabilities(device, methodInfo);
 
-            if (capabilities.GetCapability("platformName").ToString() == "Android")
-            {
+            //if (capabilities.GetCapability("platformName").ToString() == "Android")
+            //{
                 driver.AppiumDriver = AndroidDriver(capabilities);
-            }
-            else
-            {
-                driver.AppiumDriver = IOSDriver(capabilities);
-            }
+            //}
+            //else
+            //{
+            //    driver.AppiumDriver = IOSDriver(capabilities);
+            //}
 
             return driver;
         }
@@ -146,6 +162,29 @@ namespace Appium_Demo.TestProvider
         private DesiredCapabilities CreateDesiredCapabilities(Device device, MethodInfo methodInfo)
         {
             DesiredCapabilities capabilities = new DesiredCapabilities();
+
+            //capabilities.SetCapability("username", AppiumConfig.GetKobitonUserName());
+            //capabilities.SetCapability("accessKey", AppiumConfig.GetKobitonAccessKey());
+            //capabilities.SetCapability("newCommandTimeout", "400");
+
+            ////capabilities.SetCapability("appWaitActivity", "md5a28fba6e093d468832e1157c64fa578d.MainActivity");
+            //capabilities.SetCapability("unicodeKeyboard", true);
+            //capabilities.SetCapability("resetKeyboard", true);
+            //capabilities.SetCapability("browserName", "Kobiton TestProvider");
+            //capabilities.SetCapability("browserTimeout", 120);
+            //capabilities.SetCapability("app", $"kobiton-store:{RunAppId}");
+
+            //var className = methodInfo.ReflectedType.ToString().Split('.').Last();
+            //var buildName = Environment.GetEnvironmentVariable("JOB_BASE_NAME");
+            //capabilities.SetCapability("sessionName", $" {buildName} - {className} - {methodInfo.Name}");
+            //capabilities.SetCapability("sessionDescription", "Automation Run");
+
+            //capabilities.SetCapability("deviceOrientation", "portrait");
+            //capabilities.SetCapability("captureScreenshots", true);
+            //capabilities.SetCapability("deviceGroup", "KOBITON");
+            //capabilities.SetCapability("deviceName", "i");
+            //capabilities.SetCapability("platformVersion", "11.");
+            //capabilities.SetCapability("version", "11.");
 
             capabilities.SetCapability("username", AppiumConfig.GetKobitonUserName());
             capabilities.SetCapability("accessKey", AppiumConfig.GetKobitonAccessKey());
@@ -166,20 +205,20 @@ namespace Appium_Demo.TestProvider
             capabilities.SetCapability("deviceOrientation", "portrait");
             capabilities.SetCapability("captureScreenshots", true);
             capabilities.SetCapability("deviceGroup", "KOBITON");
-            capabilities.SetCapability("deviceName", "i");
-            capabilities.SetCapability("platformVersion", "11.");
-            capabilities.SetCapability("version", "11.");
+            capabilities.SetCapability("deviceName", "Galaxy");
+            //capabilities.SetCapability("platformVersion", "11.");
+            //capabilities.SetCapability("version", "11.");
 
-            var devicePlatform = AppiumConfig.GetDevicePlatform();
-            if (devicePlatform == DevicePlatform.IOS)
-            {
-                // HACK: converting iOS to MAC, watch out for when Appium switches back to iOS
-                capabilities.SetCapability("platformName", "MAC");
-            }
-            else
-            {
-                capabilities.SetCapability("platformName", device.PlatformName);
-            }
+            //var devicePlatform = AppiumConfig.GetDevicePlatform();
+            //if (devicePlatform == DevicePlatform.IOS)
+            //{
+            //    // HACK: converting iOS to MAC, watch out for when Appium switches back to iOS
+            //    capabilities.SetCapability("platformName", "MAC");
+            //}
+            //else
+            //{
+            capabilities.SetCapability("platformName", device.PlatformName);
+            //}
 
             return capabilities;
         }

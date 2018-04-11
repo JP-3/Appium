@@ -6,3 +6,4 @@ C:\git\Appium\PageModels\obj\Debug\netcoreapp2.0\PageModels.AssemblyInfo.cs
 C:\git\Appium\PageModels\bin\Debug\netcoreapp2.0\PageModels.pdb
 C:\git\Appium\PageModels\obj\Debug\netcoreapp2.0\PageModels.dll
 C:\git\Appium\PageModels\obj\Debug\netcoreapp2.0\PageModels.pdb
+C:\git\Appium\PageModels\obj\Debug\netcoreapp2.0\PageModels.csprojResolveAssemblyReference.cache

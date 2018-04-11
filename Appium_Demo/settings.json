@@ -1,0 +1,13 @@
+﻿{
+  // mac mini
+  "RIPPER": {
+    "devicePlatform": "Android",
+    "testProvider": "Kobiton",
+    "accessKey": "",
+    "userName": "johnprout",
+    "appPath": "C:\\git",
+    "devices": "Android",
+    "ios": "test.ipa",
+    "android": "test.apk"
+  }
+}

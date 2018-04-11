@@ -15,3 +15,4 @@ C:\git\Appium\KobitonAPI\obj\Debug\netcoreapp2.0\KobitonAPI.AssemblyInfoInputs.c
 C:\git\Appium\KobitonAPI\obj\Debug\netcoreapp2.0\KobitonAPI.AssemblyInfo.cs
 C:\git\Appium\KobitonAPI\obj\Debug\netcoreapp2.0\KobitonAPI.dll
 C:\git\Appium\KobitonAPI\obj\Debug\netcoreapp2.0\KobitonAPI.pdb
+C:\git\Appium\KobitonAPI\obj\Debug\netcoreapp2.0\KobitonAPI.csprojResolveAssemblyReference.cache
