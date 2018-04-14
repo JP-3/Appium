@@ -12,7 +12,7 @@ namespace PageModels.AppiumUtilities.Support
     public class MobileDriverFactory
     {
         // Device queue for checking out and checking in devices to allow multiple tests to run without conflicting against the devices
-        //private static DeviceLibrary que = new DeviceLibrary();
+        private static DeviceLibrary que = new DeviceLibrary();
 
         private string standAloneServerURI = AppiumConfig.GetStandAloneServerUri();
         private TimeSpan serverWait = AppiumConfig.GetServerWaitValue();
@@ -21,11 +21,11 @@ namespace PageModels.AppiumUtilities.Support
         {
         }
 
-        //public static DeviceLibrary Que
-        //{
-        //    get => que;
-        //    set => que = value;
-        //}
+        public static DeviceLibrary Que
+        {
+            get => que;
+            set => que = value;
+        }
 
         public AppiumDriver<AppiumWebElement> CreateDriver(string deviceName)
         {

@@ -16,7 +16,7 @@ namespace PageModels.Utilities
                 throw new ArgumentException("Paths to the devices.json, or SettingsConfig.json are incorrect or missing.");
             }
 
-            JObject obj = JObject.Parse(File.ReadAllText(path_dir));
+            JObject obj = JObject.Parse(File.ReadAllText("/Users/kylehansen/Desktop/Appium_Demo/v2/Appium/Appium_Demo/" + path_dir));
             var node = obj[objname];
             try
             {

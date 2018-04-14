@@ -75,7 +75,10 @@ namespace Appium_Demo
             Drivers = new List<MobileDriver>();
 
             // Use the Retry Policy to try and spin up a driver on a device, if it fails then try one more time
-            retryPolicy.Execute(() => Drivers = TestProvider.Setup(driverCount, methodInfo));
+            //retryPolicy.Execute(() => Drivers = TestProvider.Setup(driverCount, methodInfo));
+
+
+            Drivers = TestProvider.Setup(driverCount, methodInfo);
         }
 
         /// <summary>

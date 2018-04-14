@@ -26,7 +26,12 @@ namespace Appium_Demo
         {
             var myTestProvider = AppiumConfig.GetTestProvider();
 
-            return new KobitonTestProvider();
+            if (myTestProvider.ToString().ToUpper() == "KOBITON")
+            {
+                return new KobitonTestProvider();
+            }
+
+            return new GridProvider();
         }
     }
 }

@@ -1,13 +1,13 @@
 ﻿{
   // mac mini
-  "RIPPER": {
+  "Kyles-MacBook-Pro": {
     "devicePlatform": "Android",
-    "testProvider": "Kobiton",
-    "accessKey": "",
-    "userName": "johnprout",
-    "appPath": "C:\\git",
+    "testProvider": "Grid",
+    "accessKey": "35b1d3f7-d54b-4f21-a1f7-cbbbd7d447ba",
+    "userName": "khansen",
+    "appPath": "/Users/kylehansen/Desktop/apps/",
     "devices": "Android",
     "ios": "test.ipa",
-    "android": "test.apk"
+    "android": "com.xamarin.Calculator.Droid.apk"
   }
 }
