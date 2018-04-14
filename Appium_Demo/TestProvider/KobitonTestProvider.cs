@@ -143,7 +143,14 @@ namespace Appium_Demo.TestProvider
 
             //if (capabilities.GetCapability("platformName").ToString() == "Android")
             //{
+            try
+            {
                 driver.AppiumDriver = AndroidDriver(capabilities);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
             //}
             //else
             //{

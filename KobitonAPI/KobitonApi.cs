@@ -15,7 +15,7 @@ namespace KobitonAPI
         private readonly string send;
         private readonly RestClient client;
 
-        private readonly byte[] byteArray = Encoding.ASCII.GetBytes("");
+        private readonly byte[] byteArray = Encoding.ASCII.GetBytes("khansen:35b1d3f7-d54b-4f21-a1f7-cbbbd7d447ba");
 
         public KobitonApi()
         {

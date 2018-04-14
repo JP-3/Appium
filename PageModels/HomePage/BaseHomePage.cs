@@ -8,6 +8,6 @@ namespace PageModels.HomePage
     public class BaseHomePage
     {
         //number9
-        public virtual By NineButton => By.Name("number9");
+        public virtual By NineButton => By.XPath("//android.widget.Button[@content-desc='number9']");
     }
 }

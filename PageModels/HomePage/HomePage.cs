@@ -8,8 +8,8 @@ namespace PageModels.HomePage
 {
     public class HomePage
     {
-        internal IHomePage Home { get; set; }
-        protected AppiumWait Wait { get; set; }
+        private IHomePage Home { get; set; }
+        private AppiumWait Wait { get; set; }
 
         public HomePage(AppiumDriver<AppiumWebElement> driver)
         {
@@ -18,6 +18,7 @@ namespace PageModels.HomePage
 
         public void EnterText()
         {
+            var t = Home.NineButton;
             Wait.ForClickableElement(Home.NineButton).Click();
         }
     }

@@ -1,0 +1,12 @@
+﻿{
+  "local": {
+    "avdReadyTimeout": 60000,
+    "browserName": "local",
+    "deviceName": "local",
+    "platformName": "Android",
+    "udid": "emulator-5554",
+    "version": "8",
+    "unicodeKeyboard": true,
+    "resetKeyboard": true
+  }
+}

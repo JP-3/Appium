@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.2.0/build/netcoreapp1.0/xunit.runner.reporters.netstandard15.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.2.0/build/netcoreapp1.0/xunit.runner.utility.netstandard15.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.2.0/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="Appium_Demo" t="IncludeRecursive">
+        <e p="Appium_Demo.csproj" t="IncludeRecursive" />
+        <e p="Appium_Demo.userprefs" t="Include" />
+        <e p="AppiumCollection.cs" t="Include" />
+        <e p="AppiumFixture.cs" t="Include" />
+        <e p="BaseAppiumTest.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="devices.json" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="Appium_Demo.AssemblyInfo.cs" t="Include" />
+              <e p="Appium_Demo.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="settings.json" t="Include" />
+        <e p="TestInfo.cs" t="Include" />
+        <e p="TestProvider" t="Include">
+          <e p="GridProvider.cs" t="Include" />
+          <e p="ITestProvider.cs" t="Include" />
+          <e p="KobitonTestProvider.cs" t="Include" />
+        </e>
+        <e p="UnitTest1.cs" t="Include" />
+      </e>
+      <e p="appium_demo.sln" t="IncludeFlat" />
+      <e p="KobitonAPI" t="IncludeRecursive">
+        <e p="AppIdentification.cs" t="Include" />
+        <e p="Apps.cs" t="Include" />
+        <e p="AppURL.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Device.cs" t="Include" />
+        <e p="KobitonApi.cs" t="Include" />
+        <e p="KobitonAPI.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="KobitonAPI.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="PageModels" t="IncludeRecursive">
+        <e p="AppiumUtilities" t="Include">
+          <e p="Appium" t="Include">
+            <e p="AppiumWait.cs" t="Include" />
+            <e p="MobileDriver.cs" t="Include" />
+          </e>
+          <e p="Config" t="Include">
+            <e p="AppiumConfig.cs" t="Include" />
+            <e p="DevicePlatform.cs" t="Include" />
+            <e p="TestProvider.cs" t="Include" />
+          </e>
+          <e p="Support" t="Include">
+            <e p="DeviceLibrary.cs" t="Include" />
+            <e p="DeviceRecord.cs" t="Include" />
+            <e p="MobileDriverFactory.cs" t="Include" />
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="HomePage" t="Include">
+          <e p="AndroidHome.cs" t="Include" />
+          <e p="BaseHomePage.cs" t="Include" />
+          <e p="HomePage.cs" t="Include" />
+          <e p="IHomePage.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="PageModels.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PageModels.csproj" t="IncludeRecursive" />
+        <e p="Utilities" t="Include">
+          <e p="ConfigObject.cs" t="Include" />
+          <e p="GetApp.cs" t="Include" />
+          <e p="GetEnvironment.cs" t="Include" />
+          <e p="GetMap.cs" t="Include" />
+          <e p="SetAppPath.cs" t="Include" />
+          <e p="SetConfigObject.cs" t="Include" />
+        </e>
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2017.3/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_appium_demo.1644329039.00" t="ExcludeRecursive" />
+  </component>
+</project>
